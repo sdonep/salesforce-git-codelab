@@ -430,6 +430,16 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'spard',
+                'https://avatars.githubusercontent.com/u/61358687?v=4',
+                Date.newInstance(2023, 08, 29),
+                'https://www.salesforce.com'
+            )
+            
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
